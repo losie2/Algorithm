@@ -12,6 +12,3 @@ for i in range(N):
         nums[card] = 1
 result = sorted(nums.items(), key = lambda x : (-x[1], x[0]))
 print(result[0][0])
-
-
-
